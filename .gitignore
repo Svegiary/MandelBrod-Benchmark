@@ -2,6 +2,7 @@
 mandelbrot_*.png
 benchmark_*.png
 *.png
+*.ppm
 
 # Python bytecode
 __pycache__/
@@ -20,6 +21,14 @@ ENV/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# C++ binaries and build files
+cpp_mandelbrot/mandelbrot_benchmark
+*.o
+*.obj
+*.exe
+*.out
+*.app
 
 # OS specific files
 .DS_Store
